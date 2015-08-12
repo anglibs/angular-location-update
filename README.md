@@ -32,6 +32,21 @@ In modern web app you may have no "Save" button - note created and saved to data
 Then you would like to change route to `/notes/1` showing to user, that here is URL of his new document.
 Also if he will refresh page or go back and forward using browser buttons - he will see what he expects.
 
+## FYI
+
+Did you know, that you can easily change your URLs  
+
+from `http://mysite.com/#/notes/1` to `http://mysite.com/notes/1`
+
+For this: 
+ 1. Config app: `angular.module('your_app').config(function($locationProvider) { $locationProvider.html5Mode(true); });`
+ 2. Add in your HTML `<base href="/">`
+
+More info: https://docs.angularjs.org/guide/$location 
+
+In addition to nice looking URls it will save urls in history.
+*Be aware: your applicaion should take care about proper handlings of URL on back/forward navigation form browser.*
+
 ## Credits
 
 Solution invented by guys in these threads:
