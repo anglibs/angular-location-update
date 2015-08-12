@@ -44,9 +44,6 @@ For this:
 
 More info: https://docs.angularjs.org/guide/$location 
 
-In addition to nice looking URls it will save urls in history.
-*Be aware: your applicaion should take care about proper handlings of URL on back/forward navigation form browser.*
-
 ## Credits
 
 Solution invented by guys in these threads:
