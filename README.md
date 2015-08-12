@@ -2,6 +2,17 @@
 
 Updates location path without reloading of controller
 
+## Install
+
+ 1. `bower` or download here or include hosted from github.io
+````
+    <script src="//anglibs.github.io/angular-event-emitter/angular-event-emitter.min.js"></script>
+````
+ 2. Add module to your app:
+````
+  angular.module('your_app', ['ngLocationUpdate']);
+````
+
 ## Usage
 
 ````
