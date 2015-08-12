@@ -32,3 +32,9 @@ In modern web app you may have no "Save" button - note created and saved to data
 Then you would like to change route to `/notes/1` showing to user, that here is URL of his new document.
 Also if he will refresh page or go back and forward using browser buttons - he will see what he expects.
 
+## Credits
+
+Solution invented by guys in these threads:
+ 1. https://github.com/angular/angular.js/issues/1699
+ 1. https://github.com/angular-ui/ui-router/issues/427
+ 1. http://stackoverflow.com/questions/14974271/can-you-change-a-path-without-reloading-the-controller-in-angularjs
