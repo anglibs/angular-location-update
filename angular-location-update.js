@@ -2,6 +2,7 @@
 
   angular.module('ngLocationUpdate', [])
       .run(['$route', '$rootScope', '$location', function ($route, $rootScope, $location) {
+        // todo: would be proper to change this to decorators of $location and $route
         $location.update_path = function (path, keep_previous_path_in_history) {
           if ($location.path() == path) return;
 
