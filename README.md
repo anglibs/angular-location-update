@@ -4,11 +4,12 @@ Updates location path without reloading of controller
 
 ## Install
 
-1. `bower install angular-location-update --save` or [download]: http://anglibs.github.io/angular-location-update/angular-location-update.min.js or include hosted from github.io
+1 `bower install angular-location-update --save` or [download](http://anglibs.github.io/angular-location-update/angular-location-update.min.js) or include hosted from github.io
 ````
     <script src="//anglibs.github.io/angular-location-update/angular-location-update.min.js"></script>
 ````
-2. Add module to your app:
+
+2 Add module to your app:
 ````
   angular.module('your_app', ['ngLocationUpdate']);
 ````
