@@ -7,11 +7,13 @@
           if ($location.path() == path) return;
 
           var routeToKeep = $route.current;
-          $rootScope.$on('$locationChangeSuccess', function () {
+          var unsubscribe = $rootScope.$on('$locationChangeSuccess', function () {
             if (routeToKeep) {
               $route.current = routeToKeep;
               routeToKeep = null;
             }
+            unsubscribe();
+            unsubscribe = null;
           });
 
           $location.path(path);
